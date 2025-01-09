@@ -15,12 +15,12 @@ Python-based: Fully implemented in Python for easy integration and extensibility
 
 **Key Generation:**
 
-Bob generates a public-private key pair using small and large primes.
+Server(Base Station) generates a public-private key pair using small and large primes.
 The public key is shared with Alice for message encryption.
 
 **Message Encryption:**
 
-Alice encrypts her message using Bob's public key and a random polynomial.
+Client(Drone) encrypts her message using Bob's public key and a random polynomial.
 The encrypted message is sent to Bob.
 
 **Message Decryption:**
